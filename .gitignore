@@ -1,0 +1,41 @@
+#java ignore
+*.class
+
+#package ignore (后期对接支付宝jar,所以这里不添加*.jar)
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+#maven ignore
+target/
+
+#eclipse ignore
+.settings/
+.project/
+.classpath
+
+#idea ignore
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+out
+
+#system ignore
+.DS_Store
+Thumbs.db
+
+
+
+
+
